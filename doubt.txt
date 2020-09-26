@@ -1,0 +1,16 @@
+a = 5
+b = a + 5
+c = b + 5
+d = c + 5
+a = d - 15
+
+print(a,b,c,d)
+# prints 5, 10, 15, 20
+
+b = 20
+
+print(a,b,c,d)
+# prints 5, 20, 15, 20
+# but expected -> 15, 20, 25, 30
+
+## my intension was to declare the variables such that whenever i change one of them all others get changed accordingly(eg; when b turns to 20, c becomes 25, d becomes 30 and a becomes 15)... thats why i declared them in a circular manner... but it didnt workout... since all variables' values were worked out to constants implicitly by the computer(eg; b = a + 5 = 5 + 5 = 10)... i want some way to declare the variables such that whenever i change one of them all others should get changed accordingly...
