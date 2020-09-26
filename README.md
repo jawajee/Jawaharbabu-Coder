@@ -1,2 +1,2 @@
 # Jawaharbabu-Coder
-This is a repository for exhibiting by projects (and doubts) :)
+This is a repository for exhibiting by projects :)
